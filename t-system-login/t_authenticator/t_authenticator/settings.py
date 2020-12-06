@@ -88,9 +88,9 @@ WSGI_APPLICATION = 't_authenticator.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 't_cart',
-       'USER': 'hamidbh',
-       'PASSWORD': 'hamid2230',
+       'NAME': '*****',
+       'USER': '*****',
+       'PASSWORD': '*****',
        'HOST': 'localhost',
        'PORT': '',
    }
