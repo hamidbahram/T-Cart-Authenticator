@@ -17,4 +17,40 @@ installation
 
 > - You need to create an admin user to manage your blog site by this command: `python manage.py createsuperuser`
 
-> **PLEASE READE QUERY**
+> **PLEASE READE THE BELOW**
+
+1 - Detail All User
+
+query{
+  allUser{
+    fName
+    lName
+    # sex
+    phoneNumber
+  }
+}
+
+
+2 - Add User
+
+mutation{
+  addUser(phone:"0912*******",firstName:"name",lastName:"name",sex:true,email:"aaaaa@gmail.com"){
+    response{
+      status
+      statusCode
+      message
+    }
+  }
+}
+
+
+3 - check code
+
+mutation{
+  checKcode(phone:"0912*******", code: code){
+    response{
+      status
+      message
+    }
+  }
+}
