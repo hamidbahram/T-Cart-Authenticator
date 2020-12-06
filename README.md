@@ -19,6 +19,7 @@ installation
 
 > **PLEASE READE THE BELOW**
 
+```
 1 - Detail All User
 
 query{
@@ -54,3 +55,4 @@ mutation{
     }
   }
 }
+```
