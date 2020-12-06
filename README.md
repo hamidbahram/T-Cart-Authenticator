@@ -16,4 +16,4 @@ installation
 
 > - You need to create an admin user to manage your blog site by this command: `python manage.py createsuperuser`
 
-> **PLEASE READE QUERY:**
+> **PLEASE READE QUERY**
