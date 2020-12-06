@@ -11,6 +11,7 @@ installation
 - create database step 2 `python manage.py makemigrations`
 - create database step 3 `python manage.py migrate`
 - run your server by typing `python manage.py runserver`
+- url `http://localhost:8000/graphql/`
 
 > **Note:**
 
