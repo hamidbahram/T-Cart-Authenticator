@@ -26,7 +26,7 @@ query{
   allUser{
     fName
     lName
-    # sex
+    sex
     phoneNumber
   }
 }
